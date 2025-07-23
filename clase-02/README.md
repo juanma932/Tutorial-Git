@@ -13,3 +13,17 @@ git add <nombre-archivo1> <nombre-archivo2> <nombre-archivo3>
 git add <carpeta>/* # Me agrega todos los archivos que están dentro de una carpeta
 git add . # Agrego todos los archivos que figuran con cambios o sin siguimiento  
 ```
+
+## Comando para guardar lo que está en el Staging Area (index) dentro del repo
+
+```sh
+git commit -m <mensaje-descritivo>
+git commit -m "Clase 01 - Introducción GIT -> comandos básico"
+git commit # Me abre el editor elegido en al instalación para que coloque un mensaje
+```
+
+> IMPORTANTE: Solo se usa en el último commit (Siempre que el último no se haya subido subido al remoto)
+
+```sh
+git commit --amend -m <mensaje-descritivo-corregido>
+```
