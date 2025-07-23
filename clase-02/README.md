@@ -47,3 +47,9 @@ git log # Formato largo
 git log --oneline # Formato corto resumido
 ```
 
+## Ver información extendida de un commit
+
+```sh
+git show <hash>
+git show f09a53c
+```
