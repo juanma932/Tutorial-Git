@@ -27,3 +27,15 @@ git commit # Me abre el editor elegido en al instalación para que coloque un me
 ```sh
 git commit --amend -m <mensaje-descritivo-corregido>
 ```
+
+## Ver las diferencias entre los cambios en WD y el LOCAL REPO
+
+```sh
+git diff
+```
+
+## Ver las diferencias entre el SA (Stanging Area) y el WD
+
+```sh
+git diff --staged
+```
