@@ -53,3 +53,12 @@ git log --oneline # Formato corto resumido
 git show <hash>
 git show f09a53c
 ```
+
+## Para hacer un commit y agregar todos los archivos modified dentro de ese commit
+
+```sh
+git commit -am <mensaje-descriptivo" 
+```
+
+> IMPORTANTE: Los archivos que estén Untracked no se van agregar dentro del commit
+
