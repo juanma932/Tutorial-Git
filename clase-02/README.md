@@ -39,3 +39,11 @@ git diff
 ```sh
 git diff --staged
 ```
+
+## Ver el historico de commit 
+
+```sh
+git log # Formato largo
+git log --oneline # Formato corto resumido
+```
+
