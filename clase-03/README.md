@@ -39,3 +39,13 @@ git clone https://github.com/mlapeducacionit/git-78016.git ./ # ./ ---> Le indic
 
 ### Proyectos sencillos
 ![ramas](_ref/image-2.png)
+
+## Crear una rama
+
+```sh
+git branch <nombre-rama>
+git branch feature/ramas # crea la rama pero no cambia a esa rama
+git switch -c <nombre-rama>
+git switch -c dev
+```
+
