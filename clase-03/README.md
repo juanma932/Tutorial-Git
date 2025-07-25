@@ -31,3 +31,11 @@ git clone <url>
 git clone https://github.com/mlapeducacionit/git-78016.git # crear una carpeta con el nombre del repo y dentro clona
 git clone https://github.com/mlapeducacionit/git-78016.git ./ # ./ ---> Le indica a clone que no cree la carpeta y clone todo en el directorio actual
 ```
+
+## Branches (Ramas)
+
+### Proyectos complejos
+![ramas](_ref/image-1.png)
+
+### Proyectos sencillos
+![ramas](_ref/image-2.png)
