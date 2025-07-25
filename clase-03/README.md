@@ -74,4 +74,10 @@ git branch -v
 git branch -v
 ```
 
+## Ayuda en general de las opciones (flags) de los comandos
 
+```sh
+git add --help
+git commit --help
+git branch --help
+```
