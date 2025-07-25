@@ -49,3 +49,29 @@ git switch -c <nombre-rama>
 git switch -c dev
 ```
 
+## Para cambiar de ramas
+
+```sh
+git switch <nombre-rama>
+git switch feature/ramas
+```
+
+## Listar las ramas locales
+
+```sh
+git branch
+```
+
+## Listar las ramas locales con detalle
+
+```sh
+git branch -v
+```
+
+## Listar las ramas locales y remotas con detalles
+
+```sh
+git branch -v
+```
+
+
