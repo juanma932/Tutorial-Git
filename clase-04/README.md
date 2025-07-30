@@ -88,4 +88,26 @@ git merge feature/ramas
 * GitKraken <https://www.gitkraken.com/>
 * Sourcetree <https://www.sourcetreeapp.com/>
 
+## GIT STASH
+No se puede subir al remoto. Me permite almacenar trabajo que no están terminado. Para poder seguir trabajando en otra funcionalidad o problema que haya surgido.
+
+### Listar stashes que tengo.
+
+```sh
+git stash list
+```
+
+### Crear un stash
+
+```sh
+git stash 
+git stash -m "mensaje descriptivo de lo que guardo"
+```
+
+### Para recuperar un stash (último)
+El pop lo que hace es recuperar lo que está dentro del stash y borrarlo. Si hay conflicto. No borra el stash.
+
+```sh
+git stash pop 
+```
 
