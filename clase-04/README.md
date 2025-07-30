@@ -61,3 +61,6 @@ git fetch
 ```sh
 git pull # git fetch y luego git pull
 ```
+
+## .gitignore
+Me permite ignorar archivos que no quiero que formen parte del repo
