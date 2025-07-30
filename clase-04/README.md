@@ -49,4 +49,15 @@ git branch -D feature/borrar-rama # Borro de manera forzada la rama
 git rev-list --count HEAD
 ```
 
+## Para revisar si hay cambios en el remoto (Sin traerlos)
+Solo traigo la metada data. (Actualizo la carpeta .git local)
 
+```sh
+git fetch
+```
+
+## Me traigo los cambios
+
+```sh
+git pull # git fetch y luego git pull
+```
