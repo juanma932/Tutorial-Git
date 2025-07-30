@@ -42,3 +42,11 @@ Esto se va a necesitar hacer cuando la rama que quiero borrar no este fusionada 
 git branch -D <nombre-rama>
 git branch -D feature/borrar-rama # Borro de manera forzada la rama
 ```
+
+## Contar la cantidad de commit local
+
+```sh
+git rev-list --count HEAD
+```
+
+
