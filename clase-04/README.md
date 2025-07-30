@@ -81,3 +81,11 @@ git merge feature/ramas
 * fast-forward -> Automatico -> Nos encanta. Es la manera automatica que tiene git de resolver una fusión.
 * triple-via -> Automatico (tiene diferentes algoritmos para resolver la fusión) -> Nos gusta. Crea un commit intermedio.
 * conflicto -> Manual -> No sabe que hacer con las líneas de código que queremos fusionar. Tenemos que trabajar para solucionar el conflictos. 
+
+## Herramientas con interfaz gráfica para trabajar con GIT
+
+* Github Desktop <https://desktop.github.com/download/>
+* GitKraken <https://www.gitkraken.com/>
+* Sourcetree <https://www.sourcetreeapp.com/>
+
+
