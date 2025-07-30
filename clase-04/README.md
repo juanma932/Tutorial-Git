@@ -64,3 +64,6 @@ git pull # git fetch y luego git pull
 
 ## .gitignore
 Me permite ignorar archivos que no quiero que formen parte del repo
+
+## .gitkeep
+Me permite guardar una carpeta vacía en un repo de git.
