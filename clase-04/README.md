@@ -67,3 +67,15 @@ Me permite ignorar archivos que no quiero que formen parte del repo
 
 ## .gitkeep
 Me permite guardar una carpeta vacía en un repo de git.
+
+
+Esto es una prueba para ver que pasa cuando tenga un conflicto
+
+
+## Herramientas con interfaz gráfica para trabajar con GIT
+
+* Github Desktop <https://desktop.github.com/download/>
+* GitKraken <https://www.gitkraken.com/>
+* Sourcetree <https://www.sourcetreeapp.com/>
+
+
