@@ -67,3 +67,17 @@ Me permite ignorar archivos que no quiero que formen parte del repo
 
 ## .gitkeep
 Me permite guardar una carpeta vacía en un repo de git.
+
+## Continuando con ramas (merge)
+Tengo que estar en la rama que quiero traerme los cambios.
+Cuando quise traerme los cambios que estaban en feature/ramas tuve que moverme a la rama main porque ahí quería los cambios de la rama feature/ramas
+
+```sh
+git switch main
+git merge <nombre-rama-que-quiero-traerme>
+git merge feature/ramas
+```
+
+* fast-forward -> Automatico -> Nos encanta. Es la manera automatica que tiene git de resolver una fusión.
+* triple-via -> Automatico (tiene diferentes algoritmos para resolver la fusión) -> Nos gusta. Crea un commit intermedio.
+* conflicto -> Manual -> No sabe que hacer con las líneas de código que queremos fusionar. Tenemos que trabajar para solucionar el conflictos. 
