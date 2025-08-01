@@ -108,3 +108,6 @@ git push origin --delete feature/ramas
 ```
 
 
+# Git Cherry Pick
+Permite selecionar un commit o varios de manera independiente y colocarlos en otra rama.
+
