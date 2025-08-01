@@ -68,7 +68,43 @@ Va a borrar el commit o los commits seleccionados y descarta el contenido. O sea
 git reset --hard <hash>
 ```
 
+## Trabajo con ramas locales y remotas
 
+### Actualiza la metada para ver si hay cambio o ramas que en mi repo no veo
 
+```sh
+git fetch
+```
+
+### Listo ramas locales
+
+```sh
+git branch
+```
+
+### Listo ramas remotas
+
+```sh
+git branch -r
+```
+
+### Listo ramas remotas y locales
+
+```sh
+git branch -a
+```
+
+### Listo ramas remotas/locales con detalle
+
+```sh
+git branch -av
+```
+
+### Borrar una rama remota
+
+```sh
+git push origin --delete <nombre-rama>
+git push origin --delete feature/ramas
+```
 
 
