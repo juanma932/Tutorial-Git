@@ -111,3 +111,8 @@ El pop lo que hace es recuperar lo que está dentro del stash y borrarlo. Si hay
 git stash pop 
 ```
 
+### Para ver el contenido de un stash
+
+```sh
+git show stash@{0}
+```
