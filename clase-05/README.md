@@ -132,3 +132,6 @@ git cherry-pick <hash>^..<hash>
 ```sh
 git cherry-pick <hash>..<hash>
 ```
+
+## Git Tag
+Me permite marcas ciertos commits y darles un indentificador especial. Lo que es marcas ciertos commits con una etiqueta
