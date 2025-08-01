@@ -116,3 +116,9 @@ git stash pop
 ```sh
 git show stash@{0}
 ```
+
+### Para eliminar un stash
+
+```sh
+git stash drop
+```
