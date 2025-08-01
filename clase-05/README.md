@@ -19,6 +19,16 @@ git config --global alias.s "status --short"
 git config --global alias.c "commit -m"
 ```
 
+### Quitar alias
 
+```sh
+git config --global --unset alias.ll # Me quita el alias ll
+```
+
+### Listar alias configurados
+
+```sh
+git config --global --get-regexp alias
+```
 
 
