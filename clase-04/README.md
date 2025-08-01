@@ -120,5 +120,20 @@ git show stash@{0}
 ### Para eliminar un stash
 
 ```sh
-git stash drop
+git stash drop # Borra el último stash de la pila.
+git stash drop <stash> # Borra el stash que le indique
+git stash drop 2 # Borra el stash que le indique
 ```
+
+### Traigo un stash especifico al Working Directory
+El apply trae el stash pero no elimina el stash recuperado
+
+```sh
+git stash apply # el último (No elimina)
+git stash apply 0 # Aplica el stash que le indique (no elimina)
+```
+
+### La estructura de datos de un stash es una pila
+
+![Alt text](_ref/image.png)
+
