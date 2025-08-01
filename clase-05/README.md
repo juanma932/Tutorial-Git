@@ -112,3 +112,6 @@ Es una herramienta de consola para automatizar tareas de administración de GitH
 
 <https://cli.github.com/>
 
+# Git Cherry Pick
+Permite selecionar un commit o varios de manera independiente y colocarlos en otra rama.
+
