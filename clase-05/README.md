@@ -107,6 +107,10 @@ git push origin --delete <nombre-rama>
 git push origin --delete feature/ramas
 ```
 
+# GITHUB CLI
+Es una herramienta de consola para automatizar tareas de administración de GitHub.
+
+<https://cli.github.com/>
 
 # Git Cherry Pick
 Permite selecionar un commit o varios de manera independiente y colocarlos en otra rama.
@@ -128,3 +132,6 @@ git cherry-pick <hash>^..<hash>
 ```sh
 git cherry-pick <hash>..<hash>
 ```
+
+## Git Tag
+Me permite marcas ciertos commits y darles un indentificador especial. Lo que es marcas ciertos commits con una etiqueta
