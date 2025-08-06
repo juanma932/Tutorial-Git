@@ -9,6 +9,9 @@ Se usa para acceder a los padres de un commit. Por defecto ^ equivale a ^1
 ### ~ (n ancestros atrás en la primera línea) -> ALT + 126
 Se usa para retroceder n commits siguiendo siempre el primer padre. Es un equivalente a utilizar ^^^.
 
+## Git Tag
+Me permite marcar ciertos commits y darles un indentificador especial. Lo que es marcas ciertos commits con una etiqueta
+
 
 
 
