@@ -63,5 +63,12 @@ git push origin v0.5
 git push origin --delete v0.5
 ```
 
+# Trabajar con GIT en forma colaborativa con personas que conozco
+Lo que tengo que hacer es crear un repositorio en GitHub y agregar a mis colaboradores.
+
+* Voy a la cuenta de GitHub 
+* Creo el repositorio
+* Agrego a mis colaboradores -> Settings -> Collaborators
+
 
 
