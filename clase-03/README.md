@@ -71,7 +71,7 @@ git branch -v
 ## Listar las ramas locales y remotas con detalles
 
 ```sh
-git branch -v
+git branch -av
 ```
 
 ## Ayuda en general de las opciones (flags) de los comandos
